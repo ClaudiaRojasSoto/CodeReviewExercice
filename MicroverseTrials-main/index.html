@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please complete...</p>
+
+    <form id="survey-form">
+      <label id="name-label" for="name">
+        <span class="label-description">(Enter your name)</span>
+      </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="please enter your name"
+        required
+      />
+
+      <label id="email-label" for="email">
+        <span class="label-description">(Enter your email)</span>
+      </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="please enter your email"
+        required
+      />
+
+      <label id="number-label" for="number">
+        <span class="label-description">(Enter your number)</span>
+      </label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        placeholder="please enter your number"
+        min="1"
+        max="10"
+        required
+      />
+  
+
+    <label for="dropdown">Which option best describes your current role?</label>
+    <select id="dropdown" name="dropdown">
+      <option value="Student">Student</option>
+      <option value="full Time Job">Full Time Job</option>
+      <option value="full Time Lerner">Full Time Lerner</option>
+      <option value="prefer not to say">Prefer not to say</option>
+      <option value="other">Other</option>
+    </select>
+
+<label for="radio-buttons">Would you recommend freeCodeCamp to a friend?</label>
+<br>
+<input type="radio" id="definitely" name="radio-buttons" value="option1">
+<label for="definitely">Definitely</label>
+<br>
+<input type="radio" id="maybe" name="radio-buttons" value="option2">
+<label for="maybe">Maybe</label>
+<br>
+<input type="radio" id="not_sure" name="radio-buttons" value="option3">
+<label for="not_sure">Not Sure</label>
+<br>
+<label for="dropdown_two">What is your favorite feature of freeCodeCamp?</label>
+    <select id="dropdown_two" name="dropdown">
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="open source">Open Source</option>
+    </select>
+<br>
+<label for="checkboxes">What would you like to see improved? (Check all that apply)</label>
+<br>
+<input type="checkbox" id="front-end" name="checkboxes" value="option1">
+<label for="front-end">Front-end Projects</label>
+<br>
+<input type="checkbox" id="back-end" name="checkboxes" value="option2">
+<label for="back-end">Back-end Projects</label>
+<br>
+<input type="checkbox" id="data-visualization" name="checkboxes" value="option3">
+<label for="data-visualization">Data Visualization</label>
+<br>
+<input type="checkbox" id="challenges" name="checkboxes" value="option4">
+<label for="challenges">Challenges</label>
+<br>
+<input type="checkbox" id="open-source-community" name="checkboxes" value="option5">
+<label for="open-source-community">Open Source Community</label>
+<br>
+<input type="checkbox" id="gitter-help-rooms" name="checkboxes" value="option6">
+<label for="gitter-help-rooms">Gitter help rooms</label>
+<br>
+<input type="checkbox" id="videos" name="checkboxes" value="option7">
+<label for="videos">Videos</label>
+<br>
+<input type="checkbox" id="wiki" name="checkboxes" value="option8">
+<label for="wiki">Wiki</label>
+<br>
+<input type="checkbox" id="forum" name="checkboxes" value="option9">
+<label for="forum">Forum</label>
+<br>
+<input type="checkbox" id="additional-courses" name="checkboxes" value="option10">
+<label for="additional-courses">Additional Courses</label>
+<br>
+
+<label for="comments">Any comments or suggestions?</label>
+<br>
+<textarea name="comments" id="comments" cols="50" rows="5"></textarea>
+
+<button type="submit" id="submit">Submit</button>
+
+
+
+</form>
+    <script src="js/index.js"></script>
+  </body>
+</html>
